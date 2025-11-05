@@ -5,7 +5,10 @@ Demonstrates option pricing using Monte Carlo simulation.
 """
 
 import sys
-sys.path.insert(0, '/home/runner/work/d0m1ng0/d0m1ng0')
+from pathlib import Path
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from qf.models import monte_carlo, black_scholes
 

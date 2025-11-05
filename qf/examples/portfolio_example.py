@@ -5,7 +5,10 @@ Demonstrates portfolio optimization using Markowitz mean-variance theory.
 """
 
 import sys
-sys.path.insert(0, '/home/runner/work/d0m1ng0/d0m1ng0')
+from pathlib import Path
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import numpy as np
 from qf.utils import portfolio

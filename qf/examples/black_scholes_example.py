@@ -5,9 +5,13 @@ Demonstrates European option pricing using the Black-Scholes model.
 """
 
 import sys
-sys.path.insert(0, '/home/runner/work/d0m1ng0/d0m1ng0')
+from pathlib import Path
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from qf.models import black_scholes
+import numpy as np
 
 
 def main():
@@ -38,7 +42,7 @@ def main():
     print(f"{'Put Option Price:':<25} ${put_price:.4f}")
     
     # Verify put-call parity: C - P = S - K*e^(-rT)
-    parity_diff = call_price - put_price - (S - K * (1 / (1 + r) ** T))
+    parity_diff = call_price - put_price - (S - K * np.exp(-r * T))
     print(f"\n{'Put-Call Parity Check:':<25} {abs(parity_diff):.8f} (should be ~0)")
     
     # Calculate Greeks for call option

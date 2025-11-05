@@ -1,16 +1,28 @@
 ## Hi there 👋
 
-<!--
-**d0m1ng0/d0m1ng0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Quick Foundations (QF)
 
-Here are some ideas to get you started:
+#### 🏗️ Core Foundations
+- **Languages**: Python, JavaScript, Go, Rust
+- **Frameworks**: React, Node.js, Django, Flask
+- **DevOps**: Docker, Kubernetes, CI/CD
+- **Cloud**: AWS, GCP, Azure
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#### 🔭 Currently Working On
+- Building scalable distributed systems
+- Contributing to open source projects
+- Exploring machine learning applications
+
+#### 🌱 Currently Learning
+- Advanced system design patterns
+- Rust programming language
+- Cloud-native architectures
+
+#### 💡 Areas of Interest
+- Software architecture and design
+- Performance optimization
+- Developer tools and productivity
+
+#### 📫 Connect With Me
+- GitHub: [@d0m1ng0](https://github.com/d0m1ng0)
+- Open to collaborations and interesting projects!
